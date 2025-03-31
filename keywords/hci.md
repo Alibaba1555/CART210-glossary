@@ -1,3 +1,5 @@
+## Human-Computer Interaction (HCI)
+
 
 Human-Computer Interaction (HCI) as a field of study is primarily concerned with the design, evaluation, and implementation of interactive computing systems for human use. According to John M. Carroll in his influential work "Human Computer Interaction - Brief Intro" (2009), HCI focuses on "understanding how people make use of devices and systems that incorporate or embed computation, and how such devices and systems can be more useful and more usable." Carroll describes HCI as fundamentally multidisciplinary, drawing from computer science, psychology, design, and numerous other fields to understand the relationship between humans and technology.
 
@@ -29,7 +31,4 @@ The following diagram illustrates the three paradigms of Human-Computer Interact
   
 ![Non-chronological_Concepts of the Three HCI Paradigms - Claude](https://github.com/user-attachments/assets/09ad9eaf-0c1d-46b4-93df-d63bfc8260f0)
 
----
-- Harrison, Steve R., Deborah Tatar, and Phoebe Sengers. "The Three Paradigms of HCI." In Proceedings of CHI 2007 Workshop: Exploring Design as a Research Activity, 1-18. San Jose, California: ACM Press, 2007.
-- Carroll, John M. "Human Computer Interaction - Brief Intro." In Encyclopedia of Human-Computer Interaction, edited by Mads Soegaard and Rikke Friis Dam. Aarhus, Denmark: The Interaction Design Foundation, 2009.
-- Manovich, Lev. The Language of New Media. Cambridge, MA: MIT Press, 2001.
+

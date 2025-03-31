@@ -1557,6 +1557,8 @@ The hashtag has a profound impact on our society today, especially with the cont
 [^caleffi15word]: Caleffi, Paola-Maria. 2015. "The 'Hashtag': A new word or a new rule?" _SKASE journal of theoretical linguistics_ 12 (2): 46-69. Accessed January 29, 2025.
 [^rauschnabel19motivate]: Rauschnabel, Philipp A., Pavica Sheldon, and Erna Herzfeldt. 2019. "What motivates users to hashtag on social media?." _Psychology & Marketing_ 36 (5): 473-488. Accessed January 29, 2025.
 
+## Human-Computer Interaction (HCI)
+
 
 Human-Computer Interaction (HCI) as a field of study is primarily concerned with the design, evaluation, and implementation of interactive computing systems for human use. According to John M. Carroll in his influential work "Human Computer Interaction - Brief Intro" (2009), HCI focuses on "understanding how people make use of devices and systems that incorporate or embed computation, and how such devices and systems can be more useful and more usable." Carroll describes HCI as fundamentally multidisciplinary, drawing from computer science, psychology, design, and numerous other fields to understand the relationship between humans and technology.
 
@@ -1588,10 +1590,7 @@ The following diagram illustrates the three paradigms of Human-Computer Interact
   
 ![Non-chronological_Concepts of the Three HCI Paradigms - Claude](https://github.com/user-attachments/assets/09ad9eaf-0c1d-46b4-93df-d63bfc8260f0)
 
----
-- Harrison, Steve R., Deborah Tatar, and Phoebe Sengers. "The Three Paradigms of HCI." In Proceedings of CHI 2007 Workshop: Exploring Design as a Research Activity, 1-18. San Jose, California: ACM Press, 2007.
-- Carroll, John M. "Human Computer Interaction - Brief Intro." In Encyclopedia of Human-Computer Interaction, edited by Mads Soegaard and Rikke Friis Dam. Aarhus, Denmark: The Interaction Design Foundation, 2009.
-- Manovich, Lev. The Language of New Media. Cambridge, MA: MIT Press, 2001.
+
 
 ## HTML
 
@@ -2135,6 +2134,33 @@ Due to Linux's offered freedom, Linux has become a common tool among creatives. 
 
 
 
+## Lossless
+Lossless compression offers a method to reduce file sizes without compromising any of the original content. 
+For text, music, images, or videos, the principle remains consistent: minimize file size while preserving all details.
+With images specifically, this compression technique ensures that every aspect of visual quality remains identical to the original. 
+Unlike lossy compression, which discards some data to achieve smaller file sizes, lossless compression guarantees complete preservation of the original [^ester90image]. 
+Lossless compression is especially valuable when dealing with sensitive or high-quality content, 
+such as professional photography or archival data, where even the smallest loss in quality could be detrimental. 
+Its ability to maintain the integrity of the original file makes it ideal for tasks that demand accuracy and clarity. 
+
+When preserving moving images, it's important to use methods that keep the original quality intact. 
+This means compressing the files without losing any details or clarity. By avoiding any loss of data, 
+the digital copies stay true to the original, which is especially important for historical films or valuable content. 
+This way, the material remains high-quality and can be easily stored and accessed in the future without worry about
+losing quality over time [^besser01digital].
+
+Compression becomes more challenging when dealing with noise, random errors that can appear in any file type. 
+These irregularities complicate compression by introducing unnecessary information. 
+The Rice algorithm, a lossless data compression method, is good at handling noisy data since it can compress files about 1.4 times better 
+and 2-3 times faster than methods like GZIP [^pence09lossless].  Choosing the appropriate compression 
+methodology would be able to optimize file size while maintaining quality across all media types.
+
+
+
+[^pence09lossless]: Pence, W. D., R. Seaman, and R. L. White. 2009. “Lossless Astronomical Image Compression and the Effects of Noise.” Publications of the Astronomical Society of the Pacific 121, no. 878: 414–27. https://doi.org/10.1086/599023.
+[^besser01digital]: Besser, Howard. 2001.“Digital Preservation of Moving Image Material?” The Moving Image: The Journal of the Association of Moving Image Archivists 1, no. 2: 39–55. http://www.jstor.org/stable/41167061.
+[^ester90image]: Ester, Michael. 1990. “Image Quality and Viewer Perception.” Leonardo. Supplemental Issue 3. 51–63. https://doi.org/10.2307/1557895.
+
 ## Lossy
 
 Lossy is an adjective that is used to describe the loss of data or the dissipation of energy. 
@@ -2532,6 +2558,10 @@ These groups respond to real-world events like political shifts and social movem
 and reinforcing shared beliefs[^biluc20growing].
 The study demonstrates how internet platforms can accelerate these groups' growth and influence by facilitating the spread of their viewpoints while nurturing a powerful sense of community and shared purpose.
 
+![Online Community](images/online-community-sherwin.png)
+
+<sub>OpenAI. (2025). Prompt: "Create an image that depicts an online community". DALL·E. </sub>
+
 
 [^bell05creating]: Bell, Steven J. 2005. “Creating Community Online.” American Libraries 36, no. 4: 68–71. http://www.jstor.org/stable/25649539.
 [^biluc20growing]: Bliuc, Ana-Maria, John Betts, Matteo Vergani, Muhammad Iqbal, and Kevin Dunn. 2020. “The Growing Power of Online Communities of the Extreme-Right: Deriving Strength, Meaning, and Direction from Significant Socio-Political Events ‘in Real Life.’” International Centre for Counter-Terrorism. http://www.jstor.org/stable/resrep25261.
@@ -2789,8 +2819,8 @@ QR Code Ticket uses QR code technology to function as an electronic ticket. This
 #### Supply chain management 
 QR codes can be used in supply chain management to provide digital identification for products, goods, equipment, or documents, making data collection, tracking, management, and sharing more convenient and efficient. In terms of security features, QR codes have characteristics such as data immutability, fair and secure access, total transparency, enhanced traceability, and real-time validation.[^AICCSA2023Munir]
 
-### Example
-![qr-code](images/qr-code-example.png)[^researchG2013ruil]
+
+![qr-code](/images/qr-code-example.png)[^researchG2013ruil]
 
 
 [^wiki25Denso]: Wikipedia. 2025. "Denso." last modified on 7 February 2025. https://en.wikipedia.org/wiki/Denso.
@@ -2831,6 +2861,8 @@ Quantum Key Distribution (QKD) is the basis of this type of cryptography. It’s
 The idea of quantum cryptography originated in the early 1970s, but it was formally introduced in 1984 by Charles H. Bennett and Gilles Brassard [^3citation]. Since then, this field has expanded into real-world applications, including the Micius satellite, which enabled the first intercontinental quantum-secured video call [^4citation].
 
 Despite its promise, quantum cryptography faces challenges, including photon loss in optical fibers. However, ongoing research into quantum repeaters and satellite-based is expected to address these limitations[^5citation]. 
+
+Image prompt  :A Vogue editorial featuring two individuals dressed in elaborate medieval attire, standing against a clean white backdrop. The individuals hold striking green keys, glowing with subtle power and mystery. Their outfits blend classic medieval elegance with high-fashion elements, incorporating rich fabrics, gold accents, and detailed embroidery. The keys are a symbol of royalty and secrecy. Use hyperslats and intricate detailing to enhance the textures of the clothing and keys. Render the scene in 32k resolution, emphasizing the sharpness of fabrics, the light glinting off the keys, and the regal atmosphere. The lighting should be dramatic yet soft, highlighting the contrast between the medieval garments and the clean, modern backdrop. The overall aesthetic should feel timeless and futuristic, combining historical beauty with cutting-edge fashion, all in ultra-high definition
 
 [^1citation]: Bennett, Charles H., and Gilles Brassard. 1984. "Quantum Cryptography: Public Key Distribution and Coin Tossing." In _Proceedings of IEEE International Conference on Computers, Systems, and Signal Processing_, 175–179. Bangalore, India: IEEE.
 [^2citation]: Ekert, Artur K. 1991. "Quantum Cryptography Based on Bell’s Theorem." _Physical Review Letters_ 67 (6): 661–663. https://doi.org/10.1103/PhysRevLett.67.661.
@@ -2899,6 +2931,23 @@ Evolving Cybersecurity Landscape: The rise of AI and digital platforms increases
 [^UKsecurity]: *National Cyber Center UK*. https://www.ncsc.gov.uk/ransomware/home#section_4
 [^Allan]: Allan Liska & Timothy Gallo 2016. *Ransomware: Defending Against Digital Extortion*. https://learning-oreilly-com.lib-ezproxy.concordia.ca/library/view/ransomware/9781491967874/preface01.html#_using_code_examples
 [^cyberCanada]: Canadian Centre for Cyber Security. 2021. “Ransomware Playbook (ITSM.00.099).” Canadian Centre for Cyber Security, November 30, 2021. https://www.cyber.gc.ca/en/guidance/ransomware-playbook-itsm00099.
+
+## Responsive Design
+
+Responsive design is also known as Responsive Web Design (RWD). It is a web design technique to apply to websites to make them scalable and accessible for multiple devices. This allows developers to make website content adaptable for all screen sizes. 
+The technique automatically adjusts the components displayed on the web page to the screen size. The term Responsive design was coined by web developer Ethan Marcotte in 2010[^GardnerRWD], he believed that a webpage should satisfy all users’ needs by having the pages adjust to their users. He published an article where he stated the top three important factors in creating a scalable website are flexible images, fluid grids and media queries[^NebelingRWD]. Responsive web design is applied through HTML5 and CSS3 web development languages. Flexible images that are either scalable on their own or they resize. A fluid layout utilizes a scalable grid layout to be resized based on the user’s screen size. Media queries allow the website to know which CSS3 properties it should apply to elements when the screen is resized. 
+
+
+Responsive design helps users have a seamless browsing experience on a web page. This practice prioritizes user experience by changing the placements of elements on a webpage in response to the screen size. It remains a very accessible and usability-friendly practice. Responsiveness enforces affordance practices by allowing users to view the same website on different devices and still perform intended actions through different approaches. Responsive web design optimizes the user experience [^W3SchoolsRWD].
+The RWD technique is innovative and has changed the history of web development for the better. 
+
+Most websites hosted online follow responsive design best practices. Here are two examples: https://github.com and https://google.com.
+
+![Responsive Design](/images/responsive-design-bodika.png) 
+
+[^GardnerRWD]: Gardner, Brett S. 2011. "Responsive Web Design: Enriching the User Experience." Web Design Blog 11 (1): 15. https://www.webdesignblog.gr/wp-content/uploads/2012/03/5.pdf#page=15.
+[^NebelingRWD]: Nebeling, M., Norrie, M.C. (2013). Responsive Design and Development: Methods, Technologies and Current Issues. In: Daniel, F., Dolog, P., Li, Q. (eds) Web Engineering. ICWE 2013. Lecture Notes in Computer Science, vol 7977. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-39200-9_47
+[^W3SchoolsRWD]: W3Schools. 2024. "HTML Responsive Web Design." W3Schools. Accessed March 1, 2025. https://www.w3schools.com/html/html_responsive.asp.
 
 ## RGB
 RGB colorspace stands for “Red, Green Blue” colorspace, which is considered an “additive” color model. It is considered additive due to the range of colors being created by adding wavelengths of the main colors together in different proportions. [^zelazko225rgbcolor]
@@ -2969,6 +3018,19 @@ By embedding meaning into data, semantic technologies enable more intuitive, eff
 
                                                     
 
+## Social Networking
+
+Social Networking is the practice of building a digital network of people through multiple platform connections. It refers to someone’s online presence. This term was coined by an Australian sociologist named John Arundel Barnes through his work in “Class and Committees in a Norwegian Island Parish.” A social network uses different social platforms to connect people through digital spaces. They facilitate online communication directly within the application, to allow people from across the globe to connect easily [^InvestopediaSN].  
+
+The most universal social network is [Facebook](facebook.com), an online scrapbook of what’s going on in a person's life, it allows users to find people who they know to grow their social network. According to research conducted by Hampton et al. (2011) “Facebook is, by far, the most popular SNS. Of those who use a SNS, almost all use Facebook (92%).” [^HamptonSN] Since Facebook is used for personal relationships and to give life updates.
+A professional social network such as [LinkedIn](linkedin.com), is meant to showcase their career and educational achievements to make connections with professionals and catch up with the latest trends in their industry. This is tied to how Weaver and Morrison (2008) stated: “Social networking is the logical extension of our human tendencies toward togetherness, whether that socialization is down the hall or across the world.” [^WeaverSN]
+
+In the context of new media theory, social networking is highly tied to interactivity and decentralization. It facilitates communication and the spread of information. From a decentralized standpoint, it replaces dated forms of communication with typical information outlooks. Social networking has changed the way people communicate online and helps to build new relationships with people who live anywhere in the world. It promotes diversity and intersectionality through a social landscape.
+
+[^HamptonSN]: Hampton, Keith N., Lauren Sessions Goulet, Lee Rainie, and Kristen Purcell. 2011. Social Networking Sites and Our Lives. Vol. 1. Washington, DC: Pew Internet & American Life Project.
+[^InvestopediaSN]: Kenton, Will. n.d. “What Is Social Networking?” Investopedia. Accessed March 16, 2025. https://www.investopedia.com/terms/s/social-networking.asp#:~:text=Social%20networking%20uses%20internet%2Dbased%20social%20media%20platforms%20to%20connect,recognition%20and%20encourage%20brand%20loyalty.
+[^WeaverSN]: Weaver, Alfred C., and Benjamin B. Morrison. 2008. “Social Networking.” Computer 41 (2): 97–100.
+
 ## Software
 
 Various software have become an indispensable factor of our everyday lives, being the driving force behind everything from how we communicate to how one may monitor their fitness progress. ‘Software’ itself refers to the general concept of operating information that a computer may use in order to execute tasks, such as computer programs. Some examples include databases like Microsoft SQL or Oracle Database, search engines like Google Chrome or Explorer and word processors including Microsoft Word. However, it is often easy to think of ‘software’ as a product that is simply meant to be bought and used when “With Microsoft’s rise to dominance in the software industry, it’s easy to think of software primarily as a product, something that is developed, packaged, and sold.In fact, shrinkwrapped PC applications represent only a small fraction of the total software in use,” [^OReilly34]. Open-source softwares are an incredibly significant portion of the software industry, as they allow for experimentation and collaboration between software engineers that can lead to important developments in order to keep up with our ever-quickening technological world. Barry Boehm states that these developments are ever increasing both due to “Gordon Moore’s Law (transistor and integrated circuit density and performance doubles roughly every 18 months), plus the continuing need for product differentiation and tornado like processes for new technology introduction [Geoffrey Moore, 1995]. Global connectivity also accelerates the ripple effects of technology, marketplace, and technology changes” [^Boehm5]. Moreover, there are far more areas of software development that are affected by technological advancements in order to keep up. As Meir Lehman and Juan C. Fernandez-Ramil explain in  Software Evolution and Feedback: Theory and Practice “Evolution phenomena in software-related domains are not confined to programs and related artefacts such as specifications, designs and documentation. Applications, definitions, goals, paradigms, algorithms, languages, usage practices, the sub-processes and processes of software evolution and so on, also evolve” [^LehmanRamil14]. In order for software developers to keep up with our rapidly developing world, it is important to understand the various influences and considerations that go into producing an effective software product.
@@ -3027,6 +3089,8 @@ Streaming has transformed the landscape of the digital realm. It allows easy and
 
 [^chen17customer]: Chen, Yi‐Min, Hsin‐Hsien Liu, and Yu‐Chun Chiu. 2017. "Customer benefits and value creation in streaming services marketing: a managerial cognitive capability approach." _Psychology & Marketing_ 34 (12): 1101-1108. Accessed March 7, 2025.
 
+## Subversion
+
 Subversion in thought and action and technical choice in New Media, refers to the intention to undermine, challenge or question established structures, dogmas or conventions in the field and in society. Just like in any art form or knowledge production strategy, it may become necessary to employ the use of subversion as an attempt to sabotage, derail and refocus collective conversations around social justice, oppression and the erasure of marginalized voices, and to affect the material conditions conducive for action towards liberation and a new non-exploitative technological paradigm.
 Such employment of the technique, manifested as blasphemous, provocative, profane, satirical, ironic, questioning, combative or simply alternate and divergent language and style, is the defining quality of such works and articulations as Donna Harraway’s Cyborg Manifesto[^Harraway], The VNS Matrix Cyberfeminist Manifesto[^VNS], and the vast array of resources available on The Anarchist Library[^AnLi].
 
@@ -3036,6 +3100,33 @@ Such employment of the technique, manifested as blasphemous, provocative, profan
 [^VNS]: VNS Matrix. n.d. The Cyberfeminist Manifesto for the 21st Century. Accessed February 19, 2025. https://vnsmatrix.net/projects/the-cyberfeminist-manifesto-for-the-21st-century.
 
 [^AnLi]: The Anahist Library. n.d. Special Archive. Accessed February 19, 2025. https://theanarchistlibrary.org/special/index.
+
+## Surveillance Capitalism
+Surveillance capitalism is an economic model that emerged with the rise of big tech companies. Coined by Shoshana Zuboff, the term describes an economic system in which personal data is extracted and sold to influence human behaviour [^zuboff2023]. Unlike traditional capitalism, which transforms natural resources into commodities, surveillance capitalism commodifies the human experience itself. It turns behavioural data into a product for profit [^zuboff2023].
+
+### History
+Surveillance capitalism began in the early 2000s, largely driven by Google. Initially, Google collected user search data to refine its search algorithms. However, following the 2001 dot-com bust, the company faced pressure to generate revenue and realized that user data had untapped economic value [^zuboff2019]. Google’s breakthrough came when it started using behavioural surplus to create prediction products for targeted advertising. This marked a turning point, transforming Google from a search engine into a data business [^zuboff2019].
+
+Zuboff also ties the expansion of surveillance capitalism to post-9/11 mass surveillance policies. Laws like the U.S. Patriot Act encouraged data collection, creating an environment where companies like Google could expand their data extraction practices with no oversight [^techtarget]. This development set the stage for the rise of big tech giants like Facebook, Amazon, and Apple to adopt data-driven business models [^techtarget].
+
+### Digital Culture
+Surveillance capitalism is deeply ingrained into modern digital infrastructure. While it relies on technologies such as machine learning, sensors, and data analytics, it is not the technology itself but the economic model behind it that defines its impact [^zuboff2019]. In this system, companies do not simply use data to enhance user experiences but rather to manufacture prediction products that advertisers and other clients purchase [^zuboff2019]. The model has expanded beyond advertising, affecting industries such as finance, healthcare, and even government [^zuboff2019].
+
+One of the defining aspects of surveillance capitalism is the role of humans in it. Users are not customers but rather raw material for data extraction. Unlike a traditional market transaction, where consumers have choice and agency, surveillance capitalism operates without user consent or awareness [^zuboff2023]. The process is designed to keep individuals unaware of the extent of data collection and manipulation [^techtarget].
+
+The influence of surveillance capitalism extends beyond targeted ads as it affects privacy, autonomy, and democracy. By continuously tracking user behaviour, companies not only predict but also shape human actions. They influence political opinions, consumer behaviour, and social interactions [^techtarget].
+
+Additionally, surveillance capitalism normalizes a world where privacy is no longer a given. The increasing integration of smart devices, IoT technology, and AI-driven systems means that more aspects of human life are being recorded and monetized [^techtarget]. According to Zuboff, this shift risks our fundamental rights, as people lose control over their digital lives [^techtarget]. Understanding and addressing surveillance capitalism is essential for shaping a more ethical digital future.
+
+![Surveillance Capitalism](/images/surveillancecapitalism-chakrabarty.png)
+
+Prompt: can you give me an image that represents the essence of surveillance capitalism
+
+[^zuboff2023]: Zuboff, Shoshana. 2023. *The Age of Surveillance Capitalism.* In *Social Theory Re-Wired: New Connections to Classical and Contemporary Perspectives*, edited by Wesley Longhofer and Daniel Winchester, 3rd ed. New York, NY: Routledge.
+
+[^zuboff2019]: Zuboff, Shoshana. 2019. *Surveillance Capitalism and the Challenge of Collective Action.* *New Labor Forum, 28(1)*, 10-29. https://doi.org/10.1177/1095796018819461 
+
+[^techtarget]: Barney, Nick. 2022. "Surveillance Capitalism." *TechTarget* https://www.techtarget.com/whatis/definition/surveillance-capitalism#:~:text=Big%20tech%20companies%20like%20Amazon,of%20things%20(IoT)%20devices.
 
 ## Technological Determinism
 
@@ -3213,6 +3304,41 @@ Virtual environments are the technology which facilitates interactions between u
 [^ve2]: Mine, Mark R. 1995. “Virtual Environment Interaction Techniques.” _UNC Chapel Hill Computer Science Technical Report TR95-018_.
 [^ve3]: Youngblut, Christine, Rob E. Johnston, Sarah H. Nash, Ruth A. Wienclaw, and Craig A. Will. 1996. _Review of Virtual Environment Interface Technology_. Alexandria, VA: Institute for Defense Analyses. Accessed January 20, 2025. https://apps.dtic.mil/sti/tr/pdf/ADA314134.pdf.
 [^reschke07wallpaper]: Reschke, Michael. 2007. “800x600 Wallpaper Blue Sky.png.” Wikimedia Commons. December 27. https://commons.wikimedia.org/wiki/File:800x600_Wallpaper_Blue_Sky.png.
+## Virtual Reality (VR)
+
+Virtual reality (VR) is a computer-simulated technology that generates a three-dimensional virtual environment. Users obtain an immersive sensory simulation experience — primarily visual — through motion trackers and 3D display screens. At current technological levels, standard VR environments are implemented via virtual reality headsets or multi-projection systems, creating realistic virtual worlds by combining images, sound effects, and other sensory inputs. Auditory and visual feedback are typically employed to maximize user immersion, with some devices additionally incorporating haptic feedback or force response mechanisms. Through the introduction of sophisticated algorithms, users can freely navigate within the virtual space, observe their surroundings, and interact with virtual objects.
+
+
+### Applications 
+
+Virtual reality (VR) technology can be applied in the education sector to provide students with more immersive and interactive learning experiences. Through immersive simulations and interactive elements, VR stimulates students' learning interest, making it more effective at enhancing educational outcomes compared to traditional tools like electronic courseware or online courses. Well-designed VR programs not only capture students' attention in classroom settings but also encourage voluntary engagement in home environments, thereby amplifying learning effectiveness.
+However, VR educational software also faces limitations. Current VR equipment remains cost-prohibitive, and its physical space requirements exceed those of traditional educational setups. Additionally, there is a shortage of VR content resources, and the development costs for educational VR software are high. Designing VR programs is inherently more complex than standard curriculum development. While creating intricate and engaging virtual environments, developers must address the risk of students becoming distracted during use, potentially deviating from the primary educational objectives.[^Virvou2008CE]
+
+
+Virtual Reality (VR) technology has been extensively adopted across entertainment sectors such as gaming, film, social networking, concerts, and theme parks, with gaming representing the most significant application area. By utilizing VR headsets (e.g., Oculus Quest, HTC Vive, PlayStation VR) combined with controllers, motion-sensing devices, or full-body tracking systems, players can immerse themselves in game content with unprecedented depth. VR gaming enables natural interactions through gesture recognition, voice commands, and physical movements, allowing free exploration within three-dimensional environments. Taking Half-Life: Alyx as an example, VR systems capture real-time player motions and translate them into precise in-game feedback. Compared to traditional screen-based gaming, VR delivers heightened immersion, expanded creative possibilities, enriched entertainment value, and superior audiovisual aesthetics.[^SDB2017P]
+
+
+VR technology delivers multifaceted value in commercial applications, effectively attracting potential customers, enabling dynamic product demonstrations, and significantly boosting brand exposure. Its core business implementations can be categorized into four key domains: product design & prototyping, employee training & skill simulation, virtual marketing & customer experience enhancement, and remote collaboration & virtual meeting innovation. A prime example is the initiative by Scotland's Museum of Lead Mining. By deploying VR marketing strategies to engage potential visitors and elevate brand awareness, the museum introduced an immersive virtual mine tour accessible across multiple devices including smartphones and computers. Performance metrics reveal a 12% user interaction rate for their VR campaign, far surpassing both the service industry average (0.13%) and cross-sector benchmarks (0.27%). Notably, this initiative drove substantial brand recognition growth, with the museum's Facebook followers increasing by 17% because of the campaign.[^kj2023Business]
+
+
+![Fork the repo](/images/VR-education-example.PNG)
+A teacher uses Virtual Reality to teach math.[^viewhub2021Youtube] 
+
+![Fork the repo](/images/VR-game-example.PNG)
+VR game: Half-Life: Alyx[^valve2019Youtube]
+
+
+
+
+[^Virvou2008CE]: Virvou, Maria, and George Katsionis. 2008. "On the Usability and Likeability of Virtual Reality Games for Education: The Case of VR-ENGAGE." *Computers & Education* 50 (1): 154–178. https://concordiauniversity.on.worldcat.org/search/detail/5902295202?queryString=On%20the%20Usability%20and%20Likeability%20of%20Virtual%20Reality%20Games%20for%20Education&databaseList=&clusterResults=true&groupVariantRecords=false&newsArticles=off&bookReviews=off
+
+[^SDB2017P]: Shelstad, William J., Dustin C. Smith, and B. Chaparro. "Gaming on the Rift: How Virtual Reality Affects Game User Satisfaction." *Proceedings of the Human Factors and Ergonomics Society Annual Meeting* 61, no. 1 (2017): 2072-2076. https://concordiauniversity.on.worldcat.org/search/detail/7164089971?queryString=Gaming%20on%20the%20Rift%3A%20How%20Virtual%20Reality%20Affects%20Game%20User%20Satisfaction&bookReviews=off&newsArticles=off&databaseList=&clusterResults=true&groupVariantRecords=false
+
+[^kj2023Business]: Kostyk, Alena, Jie Sheng. "VR in Customer-Centered Marketing: Purpose-Driven Design." *Business Horizons* 66, no. 3 (2023): 225-236. https://concordiauniversity.on.worldcat.org/search/detail/9771306204?queryString=VR%20business&bookReviews=off&newsArticles=off&databaseList=&clusterResults=true&groupVariantRecords=false&format=Artchap&subformat=Artchap%3A%3Aartchap_artcl&subformat=Artchap%3A%3Aartchap_chptr&subformat=Artchap%3A%3Aartchap_digital&changedFacet=format
+
+[^viewhub2021Youtube]: "Screenshot from 'Math Teacher's Virtual Reality Class In Half-Life Alyx,' YouTube, published October 6, 2021, https://www.youtube.com/watch?v=R3g9jrqjOZs"
+
+[^valve2019Youtube]: "Screenshot from 'Half-Life: Alyx Announcement Trailer' Youtube, published November 21, 2019, https://www.youtube.com/watch?v=O2W0N3uKXmo"
 ## Virtuality
 
 Virtuality refers to how we live, work, and interact through digital technology, like the internet, video games, social media, and other online platforms. Today, many parts of our lives such as work, relationships, entertainment, and even self-care happen online. This virtual world is shaped by different technologies, such as gaming software, social networks, and online communication tools. These technologies create new ways for people to interact and experience life. For example, in video games like World of Warcraft, players connect through various digital tools like blogs, forums, and chat rooms, making the game more than just the software itself [^nardi15virtuality]. Virtuality also explores how these technologies impact society, including how they change activism, work, and entertainment; emphasizing the role of digital technology in shaping how we work, connect, and have fun.
@@ -3228,6 +3354,22 @@ Virtuality is the idea that something can have an effect or be experienced even 
 [^nardi15virtuality]: Nardi, Bonnie. 2015. “Virtuality.” *Annual Review of Anthropology* 44: 15–31. http://www.jstor.org/stable/24811646.
 
 [^norton72what]: Norton, Richard. 1972. “What Is Virtuality?” *The Journal of Aesthetics and Art Criticism* 30 (4): 499–505. https://doi.org/10.2307/429465.
+
+## Virtualization
+
+Virtualization is the process of creating a software-based representation of physical computing resources, enabling multiple virtual systems to operate simultaneously on a single hardware device. This technology essentially decouples hardware from software, allowing resources to be abstracted, shared, and allocated more efficiently[^1].
+
+Virtualization is significant in new media because it restructures how computing infrastructure is managed and utilized. By separating software from hardware dependencies, virtualization enables flexibility in terms of resource allocation and system management. This abstraction layer transforms computing resources into scalable, portable utilities that can be provisioned on demand[^2].
+
+In current media practices, virtualization serves as the foundational technology underlying cloud computing, allowing for dynamic scaling of resources across data centers. It enables content delivery networks, streaming services, and digital media platforms to efficiently distribute computational resources according to demand. Virtualization also facilitates software development by allowing programmers to test applications across multiple operating systems simultaneously[^3].
+
+Some real world examples include desktop virtualization (enabling remote access to personalized workspaces), and network virtualization (creating segmented virtual networks on shared physical infrastructure). These implementations demonstrate how virtualization optimizes resources while improving reliability and availability[^1].
+
+The concept of virtualization dates back to the 1960s when IBM developed CP/CMS (Control Program/Cambridge Monitor System), which evolved into VM/370, allowing multiple users to run seemingly isolated systems on shared mainframe hardware. However, the modern resurgence of virtualization is largely attributed to VMware's founding in 1998, which popularized virtualization for commodity x86 hardware[^2].
+
+[^1]: Douglis, F., and Krieger, O. 2013. "Virtualization." IEEE Internet Computing 17 (2): 6-9. https://doi.org/10.1109/MIC.2013.27
+[^2]: Campbell, S., and Jeronimo, M. 2006. "An Introduction to Virtualization." Intel. https://www.intel.com/intelpress/sum_vpio.htm
+[^3]: Pearce, M., Zeadally, S., and Hunt, R. 2013. "Virtualization: Issues, Security Threats, and Solutions." ACM Computing Surveys 45 (2): 17:1-17:39. https://doi.org/10.1145/2431211.2431216
 
 ## Wearable Technology
 
